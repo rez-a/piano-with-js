@@ -1,0 +1,154 @@
+body {
+    background-color: #000000;
+}
+
+.title {
+    color: #FEFEFE;
+}
+
+.note {
+    color: #F0EEEF;
+    font-size: 100px;
+    text-shadow: 0 0 50px #4376a5;
+    height: 20vh;
+}
+
+.keys {
+    height: 300px;
+    position: relative;
+}
+
+.key {
+    height: 100%;
+    flex: 1;
+    background-color: #CCCCCC;
+    margin: 0.2rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.key span {
+    font-weight: 500;
+    color: #000000;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.key:nth-child(1) span {
+    transition-delay: 58ms;
+}
+
+.key:nth-child(2) span {
+    transition-delay: calc(58*2ms);
+    left: 10%;
+}
+
+.key:nth-child(3) span {
+    transition-delay: calc(58*3ms);
+}
+
+.key:nth-child(4) span {
+    transition-delay: calc(58*4ms);
+}
+
+.key:nth-child(5) span {
+    transition-delay: calc(58*5ms);
+}
+
+.key:nth-child(6) span {
+    transition-delay: calc(58*6ms);
+}
+
+.key:nth-child(7) span {
+    transition-delay: calc(58*7ms);
+}
+
+.key:nth-child(8) span {
+    transition-delay: calc(58*8ms);
+}
+
+.key:nth-child(9) span {
+    transition-delay: calc(58*9ms);
+}
+
+.key:nth-child(10) span {
+    transition-delay: calc(58*10ms);
+}
+
+.key:nth-child(11) span {
+    transition-delay: calc(58*11ms);
+}
+
+.key:nth-child(12) span {
+    transition-delay: calc(58*12ms);
+}
+
+.key:nth-child(13) span {
+    transition-delay: calc(58*13ms);
+}
+
+.key:nth-child(14) span {
+    transition-delay: calc(58*14ms);
+}
+
+.key:nth-child(15) span {
+    transition-delay: calc(58*15ms);
+}
+
+.key:nth-child(16) span {
+    transition-delay: calc(58*16ms);
+}
+
+.key:nth-child(17) span {
+    transition-delay: calc(58*17ms);
+}
+
+.keys:hover .key span {
+    opacity: 1;
+}
+
+.key.sharp {
+    position: absolute;
+    width: 5%;
+    height: 50%;
+    left: 100%;
+    top: 0;
+    background-color: #000000;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.key.sharp span {
+    font-weight: 500;
+    color: #CCCCCC;
+}
+
+.key.sharp:nth-child(2) {
+    left: 8.5%;
+}
+
+.key.sharp:nth-child(4) {
+    left: 18%;
+}
+
+.key.sharp:nth-child(7) {
+    left: 37.5%;
+}
+
+.key.sharp:nth-child(9) {
+    left: 47%;
+}
+
+.key.sharp:nth-child(11) {
+    left: 57%;
+}
+
+.key.sharp:nth-child(14) {
+    left: 76%;
+}
+
+.key.sharp:nth-child(16) {
+    left: 85.5%;
+}
